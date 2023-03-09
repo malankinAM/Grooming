@@ -1174,7 +1174,59 @@ h1{
     }
 }
 
+@media only screen and (max-width: 1258px) {
+    .hero {
+        height: calc(
+            100vh -
+                (
+                    var(--top-header-size) + var(--mid-header-size) +
+                        var(--bottom-header-size)
+                )
+        );
+        margin-bottom: 50px;
+    }
+
+    .info-content h2 {
+        margin: unset;
+        font-size: 40px;
+    }
+
+    .promotion {
+        padding-top: 45px;
+    }
+
+    .promotion-box {
+        height: unset;
+    }
+}
+
+
 @media only screen and (max-width: 750px) {
+    .hero {
+        height: calc(
+            100vh -
+                (
+                    var(--top-header-size) + var(--mid-header-size) +
+                        var(--bottom-header-size)
+                )
+        );
+        margin-bottom: 50px;
+    }
+
+    .info-content h2 {
+        margin: unset;
+        font-size: 40px;
+    }
+
+    .promotion {
+        padding-top: 45px;
+    }
+
+    .promotion-box {
+        height: unset;
+    }
+}
+/* @media only screen and (max-width: 750px) {
     .hero {
         height: calc(
             70vh -
@@ -1184,6 +1236,59 @@ h1{
                 )
         );
         margin-bottom: 60px;
+    }
+
+    .info-content h2 {
+        margin: unset;
+        font-size: 40px;
+    }
+
+    .promotion {
+        padding-top: 45px;
+    }
+
+    .promotion-box {
+        height: unset;
+    }
+} */
+
+
+@media only screen and (max-width: 592px) {
+    .hero {
+        height: calc(
+            100vh -
+                (
+                    var(--top-header-size) + var(--mid-header-size) +
+                        var(--bottom-header-size)
+                )
+        );
+        margin-bottom: 50px;
+    }
+
+    .info-content h2 {
+        margin: unset;
+        font-size: 40px;
+    }
+
+    .promotion {
+        padding-top: 45px;
+    }
+
+    .promotion-box {
+        height: unset;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .hero {
+        height: calc(
+            100vh -
+                (
+                    var(--top-header-size) + var(--mid-header-size) +
+                        var(--bottom-header-size)
+                )
+        );
+        margin-bottom: 50px;
     }
 
     .info-content h2 {
